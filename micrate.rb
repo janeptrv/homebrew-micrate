@@ -5,8 +5,8 @@
 class Micrate < Formula
   desc "Database migration tool written in Crystal"
   homepage "http://github.com/juanedi/micrate"
-  url "https://github.com/juanedi/micrate/releases/download/0.1.0/micrate-0.1.0-darwin-x86_64.tar.gz"
-  sha256 "7d5faf0ffe96a660c69a89fc96b1a41ba5b21d1b7eae9731d10d5aa7147da6c5"
+  url "https://github.com/juanedi/micrate/releases/download/v0.2.0/micrate-0.2.0-darwin-x86_64.tar.gz"
+  sha256 "015ef4b077f1412c946c689e64b8f919bed8fb0aed5b3d6cf3f136b32dfad126"
 
   def install
     bin.install "micrate"
