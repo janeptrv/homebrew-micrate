@@ -1,0 +1,26 @@
+name: micrate-bin
+version: 0.1.0
+
+authors:
+  -  Juan Edi <jedi11235@gmail.com>
+
+dependencies:
+  micrate:
+    github: juanedi/micrate
+    branch: crystal-db
+  pg:
+    github: bcardiff/crystal-pg
+    branch: feature/db-0.3.1
+  mysql:
+    github: crystal-lang/crystal-mysql
+    branch: feature/timestamp
+  sqlite3:
+    github: crystal-lang/crystal-sqlite3
+
+targets:
+  micrate:
+    main: src/micrate-bin.cr
+
+crystal: 0.20.1
+
+license: MIT

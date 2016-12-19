@@ -1,0 +1,22 @@
+version: 1.0
+shards:
+  db:
+    github: crystal-lang/crystal-db
+    version: 0.3.2
+
+  micrate:
+    github: juanedi/micrate
+    commit: 4038e5723df6d98226eb3966ce00106e8b2f70bd
+
+  mysql:
+    github: crystal-lang/crystal-mysql
+    commit: d50706fb33962e1aedf29c101060efb5e20009fe
+
+  pg:
+    github: bcardiff/crystal-pg
+    commit: 522475aee913556fe3a70c1f7fce6173b142a757
+
+  sqlite3:
+    github: crystal-lang/crystal-sqlite3
+    version: 0.8.1
+
