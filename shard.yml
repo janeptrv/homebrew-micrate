@@ -7,13 +7,10 @@ authors:
 dependencies:
   micrate:
     github: juanedi/micrate
-    branch: crystal-db
   pg:
-    github: bcardiff/crystal-pg
-    branch: feature/db-0.3.1
+    github: will/crystal-pg
   mysql:
     github: crystal-lang/crystal-mysql
-    branch: feature/timestamp
   sqlite3:
     github: crystal-lang/crystal-sqlite3
 
