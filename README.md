@@ -1,14 +1,13 @@
-# micrate-bin
+# homebrew-micrate
 
-Build a self-contained binary distribution of [micrate](https://github.com/juanedi/micrate) that can be installed via Homebrew.
-
+Repository to support [micrate](https://github.com/amberframework/micrate) that can be installed via Homebrew.
 
 ## Usage
 
-Run the following to build the `micrate` binary that includes all known driver dependencies.
-
+To install micrate:
 ```
-$ crytal deps build
+$ brew tap amberframework/micrate
+$ brew install micrate
 ```
 
 ## Contributors
