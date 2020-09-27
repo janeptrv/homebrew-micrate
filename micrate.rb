@@ -4,13 +4,16 @@
 
 class Micrate < Formula
   desc "Database migration tool written in Crystal"
-  homepage "http://github.com/juanedi/micrate"
+  homepage "http://github.com/amberframework/micrate"
 
-  url "https://github.com/juanedi/micrate/releases/download/v0.3.0/micrate-0.3.0-darwin-x86-64.tar.gz"
-  sha256 "6ba68cd25b27fc1f37dea5a7e50f8826ed23a7814f3d4f4addbc1038fb46d98a"
+  url "https://github.com/amberframework/micrate/archive/v0.9.0.tar.gz"
+  sha256 "83e5234251a4d0c2ba087fc8b4d39a8024eee063b80b6aeb8d0b2b7fa100ca23"
+
+  depends_on "crystal"
 
   def install
-    bin.install "micrate"
+    system "shards", "install"
+    system "make", "install", "PREFIX=#{prefix}"
   end
 
   test do
