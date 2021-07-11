@@ -6,8 +6,8 @@ class Micrate < Formula
   desc "Database migration tool written in Crystal"
   homepage "http://github.com/amberframework/micrate"
 
-  url "https://github.com/amberframework/micrate/archive/v0.9.0.tar.gz"
-  sha256 "83e5234251a4d0c2ba087fc8b4d39a8024eee063b80b6aeb8d0b2b7fa100ca23"
+  url "https://github.com/amberframework/micrate/archive/v0.11.0.tar.gz"
+  sha256 "e3cd61033a6f8de443c274efd1c8f52ba99d887f4cee35d39d86c5942bd0ab19"
 
   depends_on "crystal"
 
